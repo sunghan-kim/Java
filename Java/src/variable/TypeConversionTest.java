@@ -41,8 +41,11 @@ public class TypeConversionTest {
 		
 		System.out.println(dNum);
 		
+		
 		/*
 		 * 2. 명시적 형 변환 (Explicit Type Conversion)
+		 * 
+		 * - 실수의 경우 더 정밀한 수에서 덜 정밀한 수로 형변환이 일어나면 소수점 이하 데이터가 truncate 된다.
 		 */
 
 		int i = 1000;
@@ -59,6 +62,8 @@ public class TypeConversionTest {
 		
 		System.out.println(iNum3);
 		System.out.println(iNum4);
+		
+		
 		
 	}
 	
