@@ -24,5 +24,8 @@ public class IntegerTest {
 		long lVal = 12345678900L; // L : Long(8bytes)으로 취급하라고 지정하는 것
 		long lVal2 = 100; // 값이 4bytes 안에 들어올 경우 L을 생략할 수 있다. 
 		
+		
+		System.out.println(lVal + ", " + lVal2);
+		
 	}
 }
