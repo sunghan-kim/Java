@@ -14,5 +14,9 @@ public class Student { // java 파일명과 public 키워드를 갖는 클래스명은 동일
 		
 	}
 	
+	public String getStudentName() {
+		return studentName;
+	}
+	
 	
 }
