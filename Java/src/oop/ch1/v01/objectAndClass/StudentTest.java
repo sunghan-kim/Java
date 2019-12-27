@@ -1,4 +1,4 @@
-package oop.ch1.objectAndClass;
+package oop.ch1.v01.objectAndClass;
 
 public class StudentTest {
 
