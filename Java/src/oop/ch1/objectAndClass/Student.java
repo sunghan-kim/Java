@@ -1,4 +1,4 @@
-package oop.objectAndClass;
+package oop.ch1.objectAndClass;
 
 public class Student { // java 파일명과 public 키워드를 갖는 클래스명은 동일
 
