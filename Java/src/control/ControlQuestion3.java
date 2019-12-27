@@ -2,7 +2,7 @@ package control;
 
 import java.util.Scanner;
 
-public class ControlQuestion2 {
+public class ControlQuestion3 {
 
 	/*
 	 * 
@@ -26,13 +26,12 @@ public class ControlQuestion2 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("홀수값을 입력하세요 : ");
+	
 		int lineCnt = sc.nextInt();
-		int n = lineCnt;
-		int spaceCnt = lineCnt / 2 + 1;
+		int spaceCnt = lineCnt / 2;
 		int starCnt = 1;
 		
 		for (int i=0; i < lineCnt; i++) {
-			
 			
 			for (int j=0; j < spaceCnt; j++) {
 				System.out.print(" ");
@@ -42,22 +41,22 @@ public class ControlQuestion2 {
 				System.out.print("*");
 			}
 			
-			for (int j=0; j < spaceCnt; j++) {
-				System.out.print(" ");
-			}	
-			
 			if (i < lineCnt / 2) {
+				
 				spaceCnt -= 1;
 				starCnt += 2;
+				
 			} else {
+				
 				spaceCnt += 1;
 				starCnt -= 2;
+				
 			}
 			
 			System.out.println();
 			
-			
 		}
+		
 		
 		
 		
