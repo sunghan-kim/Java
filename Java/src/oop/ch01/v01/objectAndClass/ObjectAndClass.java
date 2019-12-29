@@ -1,4 +1,4 @@
-package oop.ch1.v01.objectAndClass;
+package oop.ch01.v01.objectAndClass;
 
 public class ObjectAndClass {
 

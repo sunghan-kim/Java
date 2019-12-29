@@ -1,4 +1,4 @@
-package oop.ch1.v02.method;
+package oop.ch01.v02.method;
 
 public class MethodEx1 {
 
