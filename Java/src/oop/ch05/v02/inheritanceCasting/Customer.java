@@ -1,6 +1,6 @@
- package oop.ch05.v01.inheritance;
+ package oop.ch05.v02.inheritanceCasting;
 
-public class Customer2 {
+public class Customer {
 
 	/*
 	 * 
@@ -55,7 +55,7 @@ public class Customer2 {
 	}
 	*/
 	
-	public Customer2(int customerID, String customerName) {
+	public Customer(int customerID, String customerName) {
 		this.customerID = customerID;
 		this.customerName = customerName;
 		

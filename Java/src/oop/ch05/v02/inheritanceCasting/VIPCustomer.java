@@ -1,6 +1,6 @@
-package oop.ch05.v01.inheritance;
+package oop.ch05.v02.inheritanceCasting;
 
-public class VIPCustomer2 extends Customer2{
+public class VIPCustomer extends Customer{
 
 	/*
 	 * 
@@ -42,7 +42,7 @@ public class VIPCustomer2 extends Customer2{
 	}
 	*/
 	
-	public VIPCustomer2(int customerID, String customerName) { // 기본 생성자가 없는 상위 클래스의 생성자를 호출할 때 이와 같은 방법으로 호출할 수도 있다.
+	public VIPCustomer(int customerID, String customerName) { // 기본 생성자가 없는 상위 클래스의 생성자를 호출할 때 이와 같은 방법으로 호출할 수도 있다.
 		super(customerID, customerName);
 		
 		customerGrade = "VIP";

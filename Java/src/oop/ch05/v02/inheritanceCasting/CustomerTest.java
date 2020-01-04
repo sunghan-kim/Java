@@ -1,6 +1,6 @@
-package oop.ch05.v01.inheritance;
+package oop.ch05.v02.inheritanceCasting;
 
-public class CustomerTest2 {
+public class CustomerTest {
 	
 	public static void main(String[] args) {
 		/*
@@ -29,7 +29,7 @@ public class CustomerTest2 {
 		 */
 		
 		// 상위 클래스의 기본 생성자가 아닌 생성자를 상속받은 하위 클래스의 인스턴스 생성
-		VIPCustomer2 customerKim = new VIPCustomer2(10020, "김유신");
+		VIPCustomer customerKim = new VIPCustomer(10020, "김유신");
 		customerKim.bonusPoint = 10000;
 		
 		System.out.println(customerKim.showCustomerInfo());
