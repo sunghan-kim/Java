@@ -1,7 +1,7 @@
 package oop.ch05.v02.inheritanceCasting;
 
 
-public class CustomerTest2 {
+public class CustomerUpcastingTest {
 	
 	public static void main(String[] args) {
 		
