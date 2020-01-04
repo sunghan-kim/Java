@@ -1,6 +1,6 @@
  package oop.ch05.v01.inheritance;
 
-public class Customer {
+public class Customer2 {
 
 	/*
 	 * 
@@ -42,6 +42,7 @@ public class Customer {
 	int bonusPoint;
 	double bonusRatio;
 	
+	/*
 	public Customer() {
 		
 		customerGrade = "SILVER";
@@ -50,8 +51,21 @@ public class Customer {
 		System.out.println("Customer() 생성자 호출"); // 상위 클래스의 인스턴스를 생성하지 않고 하위 클래스의 인스턴스만 생성했을 때
 													  // 상위 클래스의 생성자가 호출되는 지 확인하기 위한 로그
 		
+		
 	}
-
+	*/
+	
+	public Customer2(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		
+		customerGrade = "SILVER";
+		bonusRatio = 0.01;
+		
+		System.out.println("Customer(int, String) 생성자 호출");
+		
+	}
+	
 	// calcPrice() : 가격 계산 메서드
 	public int calcPrice(int price) {
 		bonusPoint += price * bonusRatio; // 보너스 포인트 적립

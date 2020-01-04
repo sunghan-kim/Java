@@ -1,6 +1,6 @@
 package oop.ch05.v01.inheritance;
 
-public class VIPCustomer extends Customer{
+public class VIPCustomer2 extends Customer2{
 
 	/*
 	 * 
@@ -23,6 +23,7 @@ public class VIPCustomer extends Customer{
 	double salesRatio;
 	private int agentID;
 	
+	/*
 	public VIPCustomer() {
 		
 		//super(); // super() 는 상위 클래스의 메모리 위치를 나타낸다. 즉, 상위 클래스의 기본 생성자가 호출됨
@@ -39,7 +40,18 @@ public class VIPCustomer extends Customer{
 		System.out.println("VIPCustomer() 생성자 호출");
 		
 	}
+	*/
 	
+	public VIPCustomer2(int customerID, String customerName) { // 기본 생성자가 없는 상위 클래스의 생성자를 호출할 때 이와 같은 방법으로 호출할 수도 있다.
+		super(customerID, customerName);
+		
+		customerGrade = "VIP";
+		bonusRatio = 0.05;
+		salesRatio = 0.1;
+		
+		System.out.println("VIPCustomer(int, String) 생성자 호출");
+		
+	}
 	
 	
 	
