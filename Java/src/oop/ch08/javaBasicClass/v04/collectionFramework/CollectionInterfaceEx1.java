@@ -6,7 +6,7 @@ public class CollectionInterfaceEx1 {
 	 * 
 	 *   Collection 인터페이스
 	 *   
-	 *     - "하나의 객체"의 관리를 위해 선언된 인터페이스
+	 *     - "하나의 객체" 의 관리를 위해 선언된 인터페이스
 	 *     
 	 *     - 필요한 기본 메서드가 선언되어 있음
 	 *     
