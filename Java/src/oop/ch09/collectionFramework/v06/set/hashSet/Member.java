@@ -1,4 +1,4 @@
-package oop.ch09.collectionFramework.v07.hashSet;
+package oop.ch09.collectionFramework.v06.set.hashSet;
 
 public class Member {
 

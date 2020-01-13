@@ -1,4 +1,4 @@
-package oop.ch09.collectionFramework.v07.hashSet;
+package oop.ch09.collectionFramework.v06.set.hashSet;
 
 import java.util.HashSet;
 import java.util.Iterator;

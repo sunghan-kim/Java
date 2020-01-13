@@ -1,4 +1,4 @@
-package oop.ch09.collectionFramework.v08.treeSet;
+package oop.ch09.collectionFramework.v06.set.treeSet;
 
 public class Member implements Comparable<Member> {
 

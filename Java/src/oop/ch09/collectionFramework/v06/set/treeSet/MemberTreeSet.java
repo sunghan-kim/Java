@@ -1,24 +1,24 @@
-package oop.ch09.collectionFramework.v08.treeSet;
+package oop.ch09.collectionFramework.v06.set.treeSet;
 
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class MemberTreeSet2 {
+public class MemberTreeSet {
 
-	private TreeSet<Member2> treeSet;
+	private TreeSet<Member> treeSet;
 	
-	public MemberTreeSet2() {
-		treeSet = new TreeSet<Member2>(new Member2());
+	public MemberTreeSet() {
+		treeSet = new TreeSet<Member>();
 	}
 	
-	public void addMember(Member2 member) {
+	public void addMember(Member member) {
 		treeSet.add(member);
 	}
 	
 	public boolean removeMember(int memberId) {
-		Iterator<Member2> ir = treeSet.iterator();
+		Iterator<Member> ir = treeSet.iterator();
 		while(ir.hasNext()) {
-			Member2 member = ir.next();
+			Member member = ir.next();
 			
 			if (member.getMemberId() == memberId) {
 				treeSet.remove(member);
@@ -32,7 +32,7 @@ public class MemberTreeSet2 {
 	
 	public void showAllMember() {
 		
-		for (Member2 member : treeSet) {
+		for (Member member : treeSet) {
 			System.out.println(member.toString());
 		}
 		
