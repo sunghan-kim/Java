@@ -15,6 +15,7 @@ public class MultiThreadEx1 {
 	 *   - critical section에 대한 동기화(synchronization)의 구현이 필요 (순서를 만들어 주자)
 	 *   
 	 *   - 자바에서는 Multi Thread 를 위한 synchronized 키워드를 제공한다.
+	 *   
 	 * 
 	 */
 	
